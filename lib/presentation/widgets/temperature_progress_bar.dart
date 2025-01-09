@@ -89,7 +89,7 @@ class _TemperatureProgressBarState extends State<TemperatureProgressBar> with Si
               value: _animation.value,
               minHeight: 6.0,
               backgroundColor: Colors.blueGrey,
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
             ),
           ),
         ],

@@ -4,6 +4,8 @@ String getWeatherEmoji(String condition) {
       return "☀️";
     case "rainy":
       return "🌧️";
+    case "clear":
+      return "(:";
     case "cloudy":
       return "☁️";
     case "snowy":
