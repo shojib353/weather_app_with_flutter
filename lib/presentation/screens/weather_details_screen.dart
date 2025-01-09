@@ -251,7 +251,7 @@ class _WeatherDetailsScreenState extends State<WeatherDetailsScreen> {
 
                         Text("${day.day!.mintempC!.toInt()} °",
                         style: TextStyle(
-                          fontSize: 20
+                          fontSize: 25
                           ,color: Colors.white,
                         ),
                         ),
@@ -265,7 +265,7 @@ class _WeatherDetailsScreenState extends State<WeatherDetailsScreen> {
                         SizedBox(width: 5,),
                         Text("${day.day!.maxtempC!.toInt()} °",
                           style: TextStyle(
-                              fontSize: 20
+                              fontSize: 25
                             ,color: Colors.white,
                           ),)
                       ],
